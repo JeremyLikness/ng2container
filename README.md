@@ -2,6 +2,12 @@
 
 This Dockerfile will create a container for Angular 2 development. Use this if you do not want to install the CLI or Node.js on your local machine or just to have a stable environment to work with. 
 
+Grab this container directly: 
+
+`docker pull jlikness/ng2build` 
+
+Or build it locally ...
+
 ## Get Started 
 
 Edit the `Dockerfile` if you want to work with a different version of the Angular CLI. 
