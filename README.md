@@ -4,7 +4,7 @@ This Dockerfile will create a container for Angular 2 development. Use this if y
 
 ## Get Started 
 
-Edit the `Dockerfile` if you want to work with a specific version of the Angular CLI. Right now the default is the latest version. 
+Edit the `Dockerfile` if you want to work with a different version of the Angular CLI. 
 
 To build the image: 
 
@@ -12,8 +12,7 @@ To build the image:
 
 To run the image: 
 
-`docker run --name ng2builder -v /c/Users/path/to/ng2/project:/src -it n
-g2build`
+`docker run --name ng2builder -v /c/Users/path/to/ng2/project:/src -it ng2build`
 
 You can change the volume mount based on your system. For Windows users, you will need to share the C drive in the Docker for Windows settings for the mount to work. 
 
